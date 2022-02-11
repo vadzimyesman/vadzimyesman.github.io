@@ -1,0 +1,38 @@
+header {
+    background-color: black;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#section1{
+    background-color: blueviolet;
+    height: 300px;
+}
+#section2{
+    background-color: rgb(178, 129, 224);
+    height: 300px;
+}
+#section3{
+    background-color: rgb(67, 9, 121);
+    height: 300px;
+}
+#section4{
+    background-color: blueviolet;
+    height: 300px;
+}
+
+.flexSpace{
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+}
+
+
+#div1, #div2 ,#div3{
+    display: flex;
+
+}
